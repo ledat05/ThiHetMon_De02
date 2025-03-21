@@ -20,7 +20,7 @@
                     <br />
                     <asp:Label ID="lbGia" runat="server" ForeColor="Green" Font-Bold="true"  Text='<%# Eval("Dongia","{0:#,##0} Đồng") %>'></asp:Label>
                    <br />
-                    <a class="btn btn-primary" href="XemChiTiet.aspx?MaSach=<%# Eval("MaSach") %>">Xem chi tiết</a>
+                    <a class="btn btn-primary" href="XemChiTiet.aspx?MaSach=<%# Eval("MaSach") %>">Xem chi tiết</a> 
                     <a class="btn btn-danger" href="ThemVaoGio.aspx?MaSach=<%# Eval("MaSach") %>">Đặt mua</a>
                 </div>
                     <br />
